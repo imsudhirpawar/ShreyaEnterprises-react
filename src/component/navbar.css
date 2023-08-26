@@ -1,0 +1,59 @@
+@media (min-width: 500px) {
+    /* CSS rules for screens with a maximum width of 768px */
+    .logo{
+      /* Your styles for the media query */
+      width: 20%;
+      
+    }
+
+   
+  }
+
+
+  @media (max-width: 500px) {
+    .logo {
+      max-width: 200px;
+    }
+    .imglogo{
+        width: 100% ;
+      }
+  
+    /* .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 5%;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+  }
+  
+
+
+  .custom-toggler {
+    padding: 0.20rem 0.35rem;
+    font-size: 0.65rem;
+    line-height: 0.5;
+    
+  }
+  
+
+
+ .pro{
+  display: flex !important;
+  justify-content: right !important;
+ 
+ }
+
+
+ /* navbar.css */
+.navbar-nav .nav-link:hover {
+  color: green; /* Change to your desired hover color */
+}
+
+.navbar {
+  background-color: white; /* Set the background color to white */
+}

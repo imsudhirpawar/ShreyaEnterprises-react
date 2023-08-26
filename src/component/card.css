@@ -1,0 +1,87 @@
+
+
+
+ .card{
+    background: white;
+    background-color: white;
+    border: none;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.195);
+    
+    
+}
+
+.cardA{
+  border-radius: 17px;
+}
+
+
+
+     /* For large screens and above, keep the cards horizontal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  /* For mobile screens, stack the cards and display info to the right */
+  @media screen and (max-width: 950px) {
+    .container {
+      display: block;
+      padding: 10%;
+    }
+
+    .card img{
+       
+        padding: 5%;
+       
+    }
+  
+    .col-md-4 {
+      flex-basis: 100%;
+    }
+  
+    .card-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  
+    .card-content .info{
+      flex-basis: calc(100% - 150px);
+      margin-left: 20px;
+      background: #000;
+    }
+  }
+  
+
+
+  /* price */
+  .price-container {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .previous-price {
+    text-decoration: line-through;
+    color: rgb(227, 61, 61);
+    margin-right: 10px;
+    font-size: medium;
+  }
+  
+  .current-price {
+    color: rgb(67, 159, 67);
+    font-size: larger;
+    
+  }
+
+  @media screen and (max-width: 550px) {
+    .cardFormat {
+      margin: 7%;
+    }
+  }

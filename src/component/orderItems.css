@@ -1,0 +1,132 @@
+
+
+
+/* .bi-facebook, .bi-instagram {
+    font-size: 27px;
+  }
+  
+  .img-logo {
+    width: 20rem;
+    
+  } */
+  
+  /* .card-title {
+    font-family: 'Assistant', sans-serif;
+  } */
+  
+  /* .price-container {
+    display: inline-block;
+  }
+   */
+  .previous-price {
+    text-decoration: line-through;
+    color: rgb(227, 61, 61);
+    margin-right: 10px;
+    font-size: small;
+  }
+  
+  .current-price {
+    color: rgb(67, 159, 67);
+  }
+  
+  /* .card{
+    width: 20rem
+} */
+
+
+/* 
+@media (max-width: 500px) {
+   .card-title{
+    font-size: 21px;
+   }
+} */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  } */
+  
+  /* main {
+    flex: 1;
+  } */
+/*   
+  footer {
+    flex-shrink: 0;
+  }
+   */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+
+
+   /* Custom scrollbar styles */
+   .product-info::-webkit-scrollbar {
+    width: 0em;
+    background-color: transparent;
+  }
+ 
+
+ @media (min-width: 700px) {
+  
+  .product-info{
+     height: 78vh; 
+     width: 55vw;  
+     overflow-y: scroll;
+  }
+  
+  
+ }
+
+
+ @media (min-width: 700px) {
+  
+ #pic {
+     
+     width: 35vw;  
+     
+  }
+  
+  
+ }
+
+.sale-price{
+  font-size: 28px;
+    vertical-align: sub;
+    font-weight: bold;
+   
+}
+.del{
+  font-size: 16px;
+    margin-left: 12px;
+    vertical-align: middle;
+    color: #878787;
+}
+
+/* Buttons */
+
+
+/* Percent off */
+
+.percentOff{
+    font-size: 16px;
+    font-weight: 500;
+    color: #388e3c;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: bold;
+
+}
+
+/* icon custom */
+.ic{
+  font-size: 19px !important;
+}
+
+/* discription list */
+.discriptionList, .btn{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

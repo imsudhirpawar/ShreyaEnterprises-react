@@ -1,0 +1,48 @@
+
+
+/* Big screen */
+@media screen and (min-width:750px){
+.logInCard{
+    margin-left: 27%;
+    width: 90%;
+  
+   
+    
+}
+
+
+.singUpImage{
+    margin-right: 10%;
+    
+  
+    object-fit:cover;
+}
+
+.sui{
+height: 80vh;
+}
+
+}
+
+/* Mobile Screen */
+
+
+@media screen and (max-width:750px){
+      .singUpImage{
+         display: none;
+      }
+
+      .logInCard{
+        width: 95%;
+        margin-left: 2.5%;
+      }
+
+}
+
+
+
+.logoS{
+    object-fit:cover;
+    width: 45%;
+   color: rgb(45, 60, 73);
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "title": "Domestic Oil Press",
+        "image": ".//OilPress/image4.png",
+        "priceBefore": "25,000",
+        "priceNow": "19,750",
+        "descriptio": "Compact multi-oil extraction machine| 3-6 Kg/Hr | 13 Kg weight| 1 year warranty",
+        "description": "The compact multi-oil extraction machine, weighing 13 Kg, is capable of extracting 3-6 Kg of oil per hour and comes with a 1-year warranty.",
+        "specification": {
+            "capacity": "3-6 Kg/Hr (According to the Material)",
+            "weight": "13 Kg",
+            "warranty": "1 year"
+        },
+        "link": "/orderItems"
+    },
+    {
+        "id" : 2,
+        "title": "Counting Machine",
+        "image": "./OilPress/currency-counting-machine.jpg",
+        "priceBefore": "9,999",
+        "priceNow": "5,999",
+        "description": "Note/Money/Currency Counting Machine with Fake Note Detection Updated Note Counting Machine  (Counting Speed - 1000 notes/min)",
+       
+        "link": "/orderItems2"
+    }
+    
+]
