@@ -6,7 +6,7 @@ export default function ImageSlider2(){
     <Carousel>
       <Carousel.Item>
         
-        <img src="/Oilpress/cm1.jpg" className="w-100" text="First slide"/>
+        <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/cm1.jpg?raw=true" className="w-100" text="First slide"/>
         
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
@@ -14,7 +14,7 @@ export default function ImageSlider2(){
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="./Oilpress/currency-counting-machine.jpg" className="w-100" text="Second slide"/>
+      <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/currency-counting-machine.jpg?raw=true" className="w-100" text="Second slide"/>
         <Carousel.Caption>
           
         </Carousel.Caption>

@@ -5,13 +5,13 @@ export default function ImageSlider(){
   return (
     <Carousel>
       <Carousel.Item>
-        <img src="./Oilpress/oilpress.jpg" className='w-100'/>
+        <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/oilpress.jpg?raw=true" className='w-100'/>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="./Oilpress/image3.jpg" className='w-100'/>
+        <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/image3.jpg?raw=true" className='w-100'/>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="./Oilpress/image4.png" className='w-100'/>
+      <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/image4.png?raw=true" className='w-100'/>
       </Carousel.Item>
     </Carousel>
   );
