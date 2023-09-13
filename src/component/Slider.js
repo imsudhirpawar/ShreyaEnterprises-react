@@ -8,7 +8,7 @@ export default function ImageSlider(){
         <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/oilpress.jpg?raw=true" className='w-100'/>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/image3.jpg?raw=true" className='w-100'/>
+        <img src="https://raw.githubusercontent.com/imsudhirpawar/ShreyaEnterprises-react/main/public/OilPress/image4.png" className='w-100'/>
       </Carousel.Item>
       <Carousel.Item>
       <img src="https://github.com/imsudhirpawar/ShreyaEnterprises-react/blob/main/public/OilPress/image4.png?raw=true" className='w-100'/>
