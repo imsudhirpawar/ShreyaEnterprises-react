@@ -190,7 +190,7 @@ const OrderItems2 = () => {
 
             <p className="product-price">
               {/* Add the pricing information for the Counting Machine */}
-              <span className="sale-price h2 text-danger-emphasis">₹5,999</span>
+              <span className="sale-price h2 text-danger-emphasis">₹7,999</span>
               <del className="del">₹9,999</del>
               <span className="m-2 percentOff">20% off</span>
             </p>
