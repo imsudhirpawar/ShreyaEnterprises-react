@@ -192,7 +192,7 @@ const OrderItems2 = () => {
               {/* Add the pricing information for the Counting Machine */}
               <span className="sale-price h2 text-danger-emphasis">₹5,999</span>
               <del className="del">₹9,999</del>
-              <span className="m-2 percentOff">40% off</span>
+              <span className="m-2 percentOff">20% off</span>
             </p>
 
             <ul className="product-description text-secondary list-unstyled discriptionList">
